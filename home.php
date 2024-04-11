@@ -258,6 +258,20 @@ echo "<br>";
 
 ?>
 
+<form method='get' action='./your_banana.php'>
+    <label>Name your banana</label>
+<input type="text" name="banana">
+<input type="submit"><br>
+</form>
+
+<form method='post' action='banana_account.php'>
+    <label>Your banana account name</label>
+    <input type="text" name="banana_user_name"><br>
+    <label>Your banana account name</label>
+    <input type="text" name="password"><br>
+    <input type="submit">
+</form>
+
 
 </body>
 </html>
