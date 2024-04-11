@@ -267,7 +267,7 @@ echo "<br>";
 <form method='post' action='banana_account.php'>
     <label>Your banana account name</label>
     <input type="text" name="banana_user_name"><br>
-    <label>Your banana account name</label>
+    <label>Your banana account password</label>
     <input type="text" name="password"><br>
     <input type="submit">
 </form>
